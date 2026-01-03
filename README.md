@@ -399,7 +399,7 @@ We should warn on collisions so it’s obvious.
 
 **Media**: spotify-player, sox, camsnap
 
-**macOS**: peekaboo, imsg, blucli
+**macOS**: peekaboo, blucli
 
 **Integrations**: gogcli, wacli, bird, mcporter
 
