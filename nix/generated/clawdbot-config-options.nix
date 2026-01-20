@@ -3754,7 +3754,7 @@ in
     providers = lib.mkOption {
       type = t.attrsOf (t.submodule { options = {
       api = lib.mkOption {
-        type = t.oneOf [ t.enum [ "openai-completions" ] t.enum [ "openai-responses" ] t.enum [ "anthropic-messages" ] t.enum [ "google-generative-ai" ] t.enum [ "github-copilot" ] ];
+        type = t.oneOf [ t.enum [ "openai-completions" ] t.enum [ "openai-responses" ] t.enum [ "anthropic-messages" ] t.enum [ "google-generative-ai" ] t.enum [ "github-copilot" ] t.enum [ "bedrock-converse-stream" ] ];
       };
       apiKey = lib.mkOption {
         type = t.str;
@@ -3771,7 +3771,7 @@ in
       models = lib.mkOption {
         type = t.listOf (t.submodule { options = {
         api = lib.mkOption {
-          type = t.oneOf [ t.enum [ "openai-completions" ] t.enum [ "openai-responses" ] t.enum [ "anthropic-messages" ] t.enum [ "google-generative-ai" ] t.enum [ "github-copilot" ] ];
+          type = t.oneOf [ t.enum [ "openai-completions" ] t.enum [ "openai-responses" ] t.enum [ "anthropic-messages" ] t.enum [ "google-generative-ai" ] t.enum [ "github-copilot" ] t.enum [ "bedrock-converse-stream" ] ];
         };
         compat = lib.mkOption {
           type = t.submodule { options = {
