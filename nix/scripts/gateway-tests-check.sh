@@ -22,5 +22,7 @@ export VITEST_MIN_THREADS="1"
 export VITEST_MAX_THREADS="1"
 export VITEST_MIN_WORKERS="1"
 export VITEST_MAX_WORKERS="1"
+export MOLTBOT_DNS_BYPASS="1"
+export MOLTBOT_DNS_BYPASS_IP="93.184.216.34"
 
 pnpm test -- --testTimeout=20000
